@@ -259,10 +259,10 @@ bottom: -150px;
   font-weight: bolder;
   background-image: linear-gradient(
     -225deg,
-    #002B36 0%,
-    #FF5F5A 29%,
-    #FFBE2E 67%,
-    #2ACA44 100%
+     #000000 0%,
+    #808080 29%,
+    #FFFFFF 67%,
+    #69747F 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -276,7 +276,7 @@ bottom: -150px;
   display: inline-block;
       font-size: 50px;
       position: absolute;
-      bottom: 100px;
+      top: 200px;
 }
 
 @keyframes textclip {

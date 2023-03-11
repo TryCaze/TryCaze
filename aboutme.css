@@ -226,8 +226,9 @@ h2{
 
 
 .click{
-  color: black;
+  color: lightskyblue;
   font-style: italic;
+  text-decoration-line: underline;
 }
 
 .imagea{

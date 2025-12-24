@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=trycaze" alt="trycaze" /></a> </p>
 
-- 🔭 I’m currently working on [TryCaze](https://trycaze.site/home)
+- 🔭 I’m currently working on [ACCTOS](https://github.com/TryCaze/acctos)
 
 - 🌱 I’m currently learning **Java, 3D Printing, React**
 

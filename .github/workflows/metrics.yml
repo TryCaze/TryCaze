@@ -1,0 +1,22 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 */12 * * *" # updates every 12 hours
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # User account metrics
+          user: trycaze
+          template: classic
+          base: header, activity, community, repositories
+
+          # Isometric commit calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

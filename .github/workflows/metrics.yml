@@ -4,6 +4,12 @@ on:
     - cron: "0 */12 * * *" # updates every 12 hours
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: read
+  issues: read
+  pull-requests: read
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
